@@ -36,7 +36,7 @@ def clean_countries(affiliations):
 
     affiliations = affiliations.copy()
     affiliations["countries"] = affiliations["countries"].str.replace(
-        "United States", "United States of America"
+        "United States", "United States"
     )
     return affiliations
 
